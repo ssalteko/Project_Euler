@@ -1,5 +1,5 @@
 # Project_Euler
-Project Euler Python Solutions
+Project Euler Python 3.4 Solutions
 
 
 SPOILER ALERT
