@@ -1,5 +1,5 @@
 #Problem 3 from Project Euler
-#This was from the forum authored by rivermaker
+#This was from the forum authored by rivermaker, its short but I would like to see its functionality grow.
 
 
 n = 317584931803
