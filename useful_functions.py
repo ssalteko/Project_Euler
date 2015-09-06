@@ -1,4 +1,5 @@
 def primefactors(n):
+    '''returns a list of prime factors of n, as an array'''
     pdivs = []
     i = 3
     if n == 1 and i <= n**(1/2):
@@ -26,3 +27,15 @@ def primefactors(n):
         pdivs = [n]
         return pdivs
     return pdivs
+
+
+def sortncount(n):
+    '''pass an array through to be sorted and counted as a dictionary'''
+    dict = {}
+    mylist = n
+    for element in mylist:
+        if element in dict:
+            dict[element] += 1
+        else:
+            dict[element] = 1
+    return dict
