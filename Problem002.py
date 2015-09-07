@@ -3,6 +3,7 @@
 #Sum the even fibionocci numbers below 4M.
 
 def EvenFibSum(n):
+	'''returns the sum of even fibionocci numbers below n)'''
 	f1,f2,EFS = 1,1,0
 	while (EFS < n):
 		EFS += (f1 + f2)
