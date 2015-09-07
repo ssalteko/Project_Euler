@@ -1,5 +1,5 @@
 #Project Euler, Problem 5
-
+#The goal is to find the value of the smallest number that is evenly divisible by the positive integers 1 through 20.
 
 def primefactors(n):
     '''find the prime factors of a number, not including 1 and itself'''
