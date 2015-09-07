@@ -11,7 +11,7 @@ def PE1(a, b, n):
 
 print(PE1(3,5,1000))
 
-#This is my favorite python solution. There are no loops, because this solution requires no loops.
+#This is my favorite python solution for problem 1. There are no loops, because this solution requires no loops.
 
 #I also enjoy the functions within functions.
 
