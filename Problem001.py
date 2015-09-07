@@ -9,7 +9,7 @@ def PE1(a, b, n):
         return x * fl * (fl+1)
     return (f(a,n) + f(b,n) - f(a*b,n))//2
 
-print(3,5,1000)
+print(PE1(3,5,1000))
 
 #This is my favorite python solution. There are no loops, because this solution requires no loops.
 
