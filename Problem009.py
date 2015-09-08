@@ -1,5 +1,6 @@
-## Problem 9 form Project Euler
-##Authored by Steve Saltekoff on Fri 21 2015
+# Problem 9 form Project Euler
+# The goal is to find a pythagorean triple with a sum of 1000
+#Authored by Steve Saltekoff on Fri 21 2015
 
 
 def pythtriptester(a,b,c,n):
