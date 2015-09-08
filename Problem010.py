@@ -1,13 +1,18 @@
-#find the sum of primes below 2,0000
-
-def sumprime(n):
-    '''returns the nth prime'''
-    primes = [2,3,5,7,11,13]
-    num = 15
-    while len(primes) < n+1:
-        if all(num % m != 0 for m in primes):
-            primes.append(num)
-        num += 2
-    return primes[n]
-
-#print(nprime[10000])
+#Problem 10 from proect Euler
+#The goal is to sum all primes below 2M.
+#I got this short beutiful code from the forum authored by lassevk 9/7/2015
+    
+def sumprimes(n):
+    '''this sums primes below the value n'''
+    m = [0] * n
+    j = 3
+    sumofprimes = 2
+    while j < n:
+        if m[j] == 0:
+            sumofprimes += j
+            p = j
+            while p < n:
+                m[p] = 1
+                p += j
+        j += 2
+    print (sumofprimes)
