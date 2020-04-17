@@ -10,6 +10,7 @@ def EvenFibSum(n):
 		f1, f2 = f1 + 2 * f2, 2 * f1 + 3 * f2
 	return EFS
 
+print(EvenFibSum(10000))
 
 #This is interesting and was pulled from Project Euler on 9/4/2015 Authored by Begoner.
 #Here is their explanation:

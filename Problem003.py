@@ -13,4 +13,4 @@ while ( n**(1/2) > 1 ):
 
 
 
-print ('largest factor is', f)
+print ('The largest factor is', f)
