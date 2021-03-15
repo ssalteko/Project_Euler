@@ -1,6 +1,6 @@
 #The biggest challenge I faced was placing commas at the ends of lines.
 # If a txt file were provided it would be worthwhile to have python read that file.
-
+#right here right now
 a = [37107287533902102798797998220837590246510135740250,
 46376937677490009712648124896970078050417018260538,
 74324986199524741059474233309513058123726617309629,
