@@ -1,4 +1,3 @@
-Poblem 12 from Project Euler
 #The goal is to find the first triangular number with 500 divisors.
 #Authored by Stephen J. Saltekoff
 
@@ -9,9 +8,9 @@ def triagonum(n):
 def divisorGenerator(n):
     large_divisors = []
     for i in range(1, int(n**(0.5) + 1)):
-        if n % i is 0:
+        if n % i == 0:
             yield int(i)
-            if i is not n / i:
+            if i != n / i:
                 large_divisors.insert(0, n / i)
     for divisor in large_divisors:
         yield int(divisor)
